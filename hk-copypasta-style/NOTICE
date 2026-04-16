@@ -1,0 +1,14 @@
+# Notices
+
+This folder contains a `SKILL.md` skill (usable by both Claude Code and
+Codex), distilled style profiles, and helper scripts. It does not bundle
+raw EVCHK/Fandom article text.
+
+The optional corpus fetcher downloads raw wikitext from 香港網絡大典 on Fandom.
+Those upstream pages are attributed in generated raw corpus files and are
+licensed by their upstream site, typically CC BY-SA 3.0 unless a page states
+otherwise. Keep generated `research/raw-corpus/` files outside the installable
+skill package unless you have reviewed the licensing and attribution impact.
+
+This project is not affiliated with or endorsed by EVCHK, Fandom, LIHKG,
+HKGolden, or the original authors of referenced copypasta sources.

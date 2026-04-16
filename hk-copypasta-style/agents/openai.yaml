@@ -1,0 +1,4 @@
+interface:
+  display_name: "HK Copypasta Style"
+  short_description: "Generate HK forum copypasta with source-aware structure."
+  default_prompt: "Use $hk-copypasta-style to choose or reference a Hong Kong 潮文 style, then rewrite it around my topic, stance, and length constraints."

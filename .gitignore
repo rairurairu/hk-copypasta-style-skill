@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+
+# Harness-local config (never commit per-machine settings)
+.claude/
+.codex/
+
+# Raw corpus is regenerated locally via scripts/fetch_evchk_corpus.py;
+# do not redistribute upstream EVCHK/Fandom wikitext through this repo.
+# Keep the folder's README so the empty cache directory still ships with
+# instructions for repopulating it.
+research/raw-corpus/*
+!research/raw-corpus/README.md

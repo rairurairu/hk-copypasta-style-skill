@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local/generated corpus data. Raw EVCHK wikitext is research material and
+# is fetched on demand via scripts/fetch_evchk_corpus.py; never bundle it
+# inside the installable skill folder.
+research/raw-corpus/
+
+# Local editor and OS noise.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
